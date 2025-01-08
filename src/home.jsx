@@ -1,4 +1,4 @@
-import Logo from './assets/logo.jpg'
+import Logo from './assets/Logo.jpg'
 import PhoneLayout from './phone'
 import image from './assets/home.webp'
 import DownloadAPKButton from './download';
