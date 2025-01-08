@@ -4,7 +4,7 @@ const DownloadAPKButton = () => {
   return (
     <div className="flex justify-center items-center">
       <a 
-        href="./public/FrappV1.0.4.apk"  // Replace with your APK file path
+        href="https://github.com/Brianali-codes/Frapp/releases/download/Frappv1.0.4/FrappV1.0.4.apk"  // Replace with your APK file path
         download
         
       >
