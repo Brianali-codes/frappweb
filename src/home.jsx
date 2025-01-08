@@ -102,7 +102,7 @@ export default function Home(){
                         <motion.div
                             initial={{ opacity: 0, y: 200 }} // Starting position
                             whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                            transition={{ delay: 0.7,duration: 1 }} // Transition duration
+                            transition={{ duration: 1 }} // Transition duration
                             viewport={{ once: true }} // Animation happens only once when it comes into view
                         >
                             <DownloadAPKButton/>
