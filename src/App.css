@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.kanit{
+ font-family: Kanit, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#root{
+  background-color: #1b2838;
+}
+
+#main{
+  background-color: #1b2838;
+}
+.glow-border {
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px 4px rgba(0, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 25px 12px rgba(0, 255, 255, 1);
+  }
+}
+.sidebarOn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-direction: column;
+  width: 50%;
+  background-color: black;
+  top: 0;
+  left: 1;
+  right: 0;
+  bottom: 0;
+  gap: 20px;
+  z-index: 99;
+}
+.sidebarOFF{
+  display: none;
+}
+
+#menu{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #home-sect {
+    display: flex;
+    flex-direction: column;
+  }
+  #phone{
+    width: 100%;
+  }
+  #infos{
+    width: 100%;
+  }
+  #navbar{
+    display: none;
+  }
+  #menu{
+    display: block;
+  }
+}
