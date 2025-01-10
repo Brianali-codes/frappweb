@@ -35,9 +35,9 @@ export default function Home(){
                     </div>
                     <div className='p-5 gap-5 flex flex-row justify-center items-center' id='navbar'>
                         <a href="https://ko-fi.com/brianalicodes"><img src='https://storage.ko-fi.com/cdn/kofi2.png?v=6%27%20border=%270%27' className='w-30 h-10 cursor-pointer' /></a>
-                        <a href="/"><button className='text-white hover:text-cyan-400 kanit text-lg' onClick={setOffOrOn} >Download</button></a>
-                        <a href="https://github.com/brianali-codes" target='_blank'><button className='text-white hover:text-cyan-400 kanit text-lg' onClick={setOffOrOn} >Links</button></a>
-                        <a href="https://github.com/brianali-codes" target='_blank'><button className='text-white hover:text-cyan-400 kanit text-lg' onClick={setOffOrOn} >Features</button></a>
+                        <a href="/"><button className='text-white hover:text-cyan-400 kanit text-lg'>Download</button></a>
+                        <a href="https://github.com/brianali-codes" target='_blank'><button className='text-white hover:text-cyan-400 kanit text-lg'>Links</button></a>
+                        <a href="https://github.com/brianali-codes" target='_blank'><button className='text-white hover:text-cyan-400 kanit text-lg'>Features</button></a>
                         
                     
                     </div>
