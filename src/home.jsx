@@ -55,6 +55,10 @@ export default function Home(){
 
                 </div>
                 <br /><br />
+                 <p className='playwrite text-white text-4xl text-center'>Frapp, Get video game giveaways Fast</p>
+                 <br /><br />
+                 <p className='kanit text-white text-center'>Frapp is a mobile app that provides access to video game giveaways and free games. Users can participate in giveaways, download free games, and report bugs, all with seamless navigation, offering a user-friendly experience for discovering and enjoying free games on mobile devices.</p>
+                <br /><br />
                 <div className='flex flex-row justify-around items-center' id='home-sect'>
                     <motion.div
                         id="phone"
@@ -97,7 +101,7 @@ export default function Home(){
                                 viewport={{ once: true }} // Animation happens only once when it comes into view className='text-white kanit'>Frapp is a mobile app that provides access to video game giveaways and free games. Users can participate in giveaways, download free games, and report bugs, all with seamless navigation, offering a user-friendly experience for discovering and enjoying free games on mobile devices.</p>
                                 className='text-white kanit'
                         >
-                            Frapp is a mobile app that provides access to video game giveaways and free games. Users can participate in giveaways, download free games, and report bugs, all with seamless navigation, offering a user-friendly experience for discovering and enjoying free games on mobile devices.
+                            Frapp is a mobile app that provides access to video game giveaways and free games. Users can be notified of giveaways, download free games, and report bugs, all with seamless navigation, offering a user-friendly experience for discovering and enjoying free games on mobile devices.
                             </motion.p> 
                         <motion.div
                             initial={{ opacity: 0, y: 200 }} // Starting position
