@@ -112,14 +112,16 @@ export default function Home(){
                             <DownloadAPKButton/>
 
                         </motion.div>
+                        <p className='kanit text-white'>Dont forget to star 🌟 the app on <a href="https://github.com/brianali-codes/Frapp" target='_blank'><span className='text-cyan-300'>github</span></a></p>
                         </div>
+                        
                 </div>
 
                 
                 
 
             </div>
-
+            <br /><br />
             <hr />
                 <br /><br /><br />
                 <div className='text-center flex flex-row justify-center items-center'>
