@@ -50,6 +50,7 @@
   #home-sect {
     display: flex;
     flex-direction: column;
+    background-color: transparent;
   }
   #phone{
     width: 100%;
