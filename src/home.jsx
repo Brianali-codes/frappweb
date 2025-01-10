@@ -62,7 +62,7 @@ export default function Home(){
                 <div className='flex flex-row justify-around items-center' id='home-sect'>
                     <motion.div
                         id="phone"
-                        className="flex flex-col  w-3/6 justify-center items-center p-5 dark:bg-black m-7 rounded-2xl"
+                        className="flex flex-col  w-3/6 justify-center items-center p-5 bg-transparent"
                         initial={{ opacity: 0, y: -50 }} // Starting position
                         whileInView={{ opacity: 1, y: 20 }} // Ending position when in view
                         transition={{ duration: 1 }} // Transition duration

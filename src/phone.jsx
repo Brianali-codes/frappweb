@@ -2,7 +2,7 @@ import React from 'react';
 
 const PhoneLayout = ({ imageUrl }) => {
   return (
-    <div className="flex items-center justify-center h-fit trans">
+    <div className="flex items-center justify-center h-fit trans bg-transparent">
       <div className="relative border-8 border-black rounded-3xl shadow-lg bg-transparent glow-border">
         {/* Notch */}
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-b-lg z-10"></div>
@@ -24,5 +24,6 @@ const PhoneLayout = ({ imageUrl }) => {
     </div>
   );
 };
+
 
 export default PhoneLayout;
