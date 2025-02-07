@@ -4,7 +4,7 @@ const DownloadAPKButton = () => {
   return (
     <div className="flex justify-center items-center">
       <a 
-        href="https://github.com/Brianali-codes/Frapp/releases/download/Frappv1.0.6/Frappv1.0.6.apk"  // this is the apk file from my github repo
+        href="https://github.com/Brianali-codes/Frapp/releases/download/Frappv1.0.8/Frappv1.0.8.stable.apk"  // this is the apk file from my github repo
         download
         
       >
