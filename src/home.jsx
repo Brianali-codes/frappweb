@@ -59,7 +59,7 @@ export default function Home(){
                  <br /><br />
                  <p className='kanit text-white text-center'>Frapp is a mobile app that alerts users when stores like Epic Games or Steam and much more offer paid games for free. It’s user-friendly, helping anyone discover and download free games effortlessly, while also allowing users to report bugs to improve the app’s functionality and overall experience.</p>
                 <br/>
-                <p> Frapp has Reached 500 + Downloads</p>
+                <p className='kanit text-white text-center'> Frapp has Reached 500 + Downloads</p>
                 <br /><br />
                 <div className='flex flex-row justify-around items-center' id='home-sect'>
                     <motion.div
